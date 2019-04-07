@@ -1,7 +1,6 @@
 import React from 'react';
 import * as ReactDOM from "react-dom";
 import App from './components/App';
-import * as serviceWorker from './serviceWorker';
 import {Provider} from 'react-redux';
 
 import './styles/index.css';
@@ -15,4 +14,3 @@ ReactDOM.render(
     </Provider>, ROOT_ELEMENT
 );
 
-serviceWorker.unregister();

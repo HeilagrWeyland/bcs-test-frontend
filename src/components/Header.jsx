@@ -7,7 +7,7 @@ const Header = () => (
     <AppBar position="static">
         <Toolbar>
             <Typography variant="title" color="inherit">
-                Wey
+                BCS Test Frontend
             </Typography>
         </Toolbar>
     </AppBar>
